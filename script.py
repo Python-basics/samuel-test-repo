@@ -14,11 +14,3 @@ if:  # finish by writing condition here
     print(f"Yes {x} is less than 10")
 else:
     print(f"no {x} is not less than 10")
-
-
-def main():
-    pass
-
-
-if __name__ == "__main__":
-    main()
