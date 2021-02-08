@@ -1,24 +1,41 @@
 
-"""
-16) if / else
-"""
 
-# write an if / else if the following numbers are less than 10
-# uncomment one at a time to test your condition
 
-x = 11
-##x = 12
-##x = 8
+"""2) variables types
 
-if:  # finish by writing condition here
-    print(f"Yes {x} is less than 10")
-else:
-    print(f"no {x} is not less than 10")
+three type assignment"""
+
+# assign the following types 
+
+
+
+name =         # str -- string
+
+age =          # int -- integer 
+
+decimal =      # float --  float
+
+
+
+
+
+
+
 
 
 def main():
-    pass
-
+    if type(name) == str:
+        print(f"{name}  passed test")
+    else:
+        print(f"{name}:  failed test")
+    if type(age) == int:
+        print(f"{age}:  passed test")
+    else:
+        print(f"{age}:  failed test")
+    if type(decimal) == float:
+        print(f"{decimal}:  passed test")
+    else:
+        print(f"{decimal}:  failed test")
 
 if __name__ == "__main__":
     main()
