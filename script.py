@@ -1,16 +1,38 @@
 
 """
-16) if / else
+3) operators
+
 """
 
-# write an if / else if the following numbers are less than 10
-# uncomment one at a time to test your condition
+x = 2
+y= 26
+z = 4
 
-x = 11
-##x = 12
-##x = 8
+m =    # multiply y by 17
+d =    # add 14 to z
+t =    # subtract 12 from x
 
-if:  # finish by writing condition here
-    print(f"Yes {x} is less than 10")
-else:
-    print(f"no {x} is not less than 10")
+
+
+
+
+
+
+
+
+def main():
+    if m == 442:
+        print(f"m passed test, got {m} expected 442")
+    else:
+        print(f"m failed test, got {m} expected 442")
+    if d == 18:
+        print(f"d passed test, got {d} expected 18")
+    else:
+        print(f"d failed test, got {d} expected 18")
+    if t == -10:
+        print(f"t passed test, got {t} expected -10")
+    else:
+        print("t failed test, got {t} expected -10")
+    
+if __name__ == "__main__":
+    main()
